@@ -22,6 +22,7 @@ font-size: 10px;
 text-align: center;
 background-color:#ebebeb;
 overflow: hidden;
+font-weight:bold; 
 }
 
 .nav {
@@ -30,6 +31,7 @@ overflow: hidden;
     padding: 20px;
     margin-bottom: 20px ;
     font-size: 10px;
+    font-weight:bold; 
     text-align: center;
     background-color:#ebebeb;
     overflow: hidden;
@@ -38,6 +40,7 @@ overflow: hidden;
   h1,h2,h3,p {
     color: '#777'; 
     background: '#ebebeb';
+    font-weight:bold; 
   }
 
   .body {
@@ -46,6 +49,7 @@ overflow: hidden;
     background: '#777';
     width: '960px';
     font-size: '18px';
+    font-weight:bold; 
     box-sizing: border-box;
   }
   
@@ -56,9 +60,22 @@ overflow: hidden;
     border: 5px;
     padding: 10px;
     font-size: 10px;
+    font-weight:bold; 
     text-align: center;
     background-color:#ebebeb;
     overflow: hidden;
+} 
+
+
+.article { 
+  border: 5px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight:bold; 
+  text-align: center;
+  overflow: hidden;
+  color: '#ebebeb';
+  background: '#777'
 } 
 
 .aside { 
@@ -68,6 +85,7 @@ overflow: hidden;
     border: 5px;
     padding: 10px;
     font-size: 10px;
+    font-weight:bold; 
     text-align: center;
     background-color:#ebebeb;
     overflow: hidden;
@@ -80,7 +98,10 @@ overflow: hidden;
     position: relative; 
    margin-top: -100px;
     text-align:center; 
-    font-size:30px; 
-    font-weight:bold; 
+    vertical-align: middle;
+    font-size:10px; 
     clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
